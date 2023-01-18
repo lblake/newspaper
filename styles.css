@@ -21,9 +21,8 @@ a:active {
 }
 
 p {
-  margin: 10px 0;
-  padding: 5px;
-  
+  margin: 0.625rem 0;
+  padding: 0.3125rem;
 }
 /* p {
   display: block;
@@ -40,8 +39,8 @@ p {
   background-color: #8b249a;
   position: fixed;
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding-top: 3.125rem;
+  padding-bottom: 1.25rem;
 }
 
 .topnav-links {
@@ -54,8 +53,8 @@ p {
 
 h1 {
   text-align: center;
-  padding-right: 100px;
-  padding-top: 100px;
+  padding-right: 6.25rem;
+  padding-top: 6.25rem;
   text-transform: uppercase;
 }
 
@@ -69,8 +68,8 @@ h1 {
   bottom: 0;
   width: 100%;
   border: 50;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 1.25rem;
+  padding-bottom: 0.625rem;
   background-color: #545454;
   /* color: white; */
   text-align: center;
@@ -87,7 +86,7 @@ h1 {
 }
 
 .footer > p {
-  padding-right: 100px;
+  padding-right: 6.25rem;
 }
 /* .footer-date {
     display: inline;
