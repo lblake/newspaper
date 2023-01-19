@@ -9,7 +9,7 @@ body {
 img {
   position: absolute;
   left: 10px;
-  top: 10px;
+  top: 20px;
   z-index: 1;
   
 }
@@ -60,8 +60,19 @@ p {
 }
 .topnav-links a {
   color: #ffff;
+  text-align: center;
 }
 
+.center-link{
+  display: flex;
+  justify-content: center;
+}
+
+.center-link a {
+  color: #ffff;
+  padding-right: 3.125rem;
+
+}
 .footer {
   position: fixed;
   left: 0;
