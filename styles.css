@@ -1,5 +1,4 @@
-@import "reset-styles.css";
-
+@import 'reset-styles.css';
 
 body {
   font-family: 'Didact Gothic', sans-serif;
@@ -23,17 +22,17 @@ a:active {
   text-decoration: none;
 }
 
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-right: 6.25rem;
+  padding-top: 6.25rem;
+  text-transform: uppercase;
+}
 p {
   margin: 0.625rem 0;
   padding: 0.3125rem;
 }
-/* p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-} */
 
 .topnav {
   overflow: hidden;
@@ -54,17 +53,6 @@ p {
   color: #ffff;
 }
 
-h1 {
-  text-align: center;
-  padding-right: 6.25rem;
-  padding-top: 6.25rem;
-  text-transform: uppercase;
-}
-
-/* .topnav {
-  display: flex;
-  justify-content: space-evenly;
-} */
 .footer {
   position: fixed;
   left: 0;
@@ -91,7 +79,3 @@ h1 {
 .footer > p {
   padding-right: 6.25rem;
 }
-/* .footer-date {
-    display: inline;
-    padding-top: 50px;
-} */
