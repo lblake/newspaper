@@ -11,7 +11,12 @@ img {
   left: 10px;
   top: 20px;
   z-index: 1;
-  
+}
+
+.img-responsive {
+  width: 50%;
+
+  height: auto;
 }
 
 a:link {
@@ -38,15 +43,20 @@ h1 {
   text-transform: uppercase;
 }
 p {
-  margin: 0.625rem 0;
+  margin: 0.625rem;
   padding: 0.3125rem;
+  /* margin-right: 0.625rem; */
+  /* display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
 }
 
 .topnav {
   overflow: hidden;
   left: 0;
   top: 0;
-  /* background-color: #8b249a; */
   background-color: #752284;
   position: fixed;
   width: 100%;
@@ -63,7 +73,7 @@ p {
   text-align: center;
 }
 
-.center-link{
+.center-link {
   display: flex;
   justify-content: center;
 }
@@ -71,8 +81,8 @@ p {
 .center-link a {
   color: #ffff;
   padding-right: 3.75rem;
-
 }
+
 .footer {
   position: fixed;
   left: 0;
